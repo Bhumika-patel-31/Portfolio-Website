@@ -6,6 +6,7 @@
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    position: relative;
 }
 
 html{
@@ -436,4 +437,20 @@ footer span a{
 
 footer span a:hover{
     text-decoration:underline ;
+}
+
+@media (max-width: 600px) {
+    div.images{
+        display: none;
+    }
+    div.services-list{
+        margin-bottom: 10px;
+        
+    }
+    div#services{
+        height: 100vh;
+    }
+    div#contact{
+        height: 100vh;
+    }
 }
